@@ -1,0 +1,36 @@
+name: my_business_card
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - android/images/dev.jpg
+    - lib/main.dart
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: android/fonts/Pacifico-Regular.ttf
+
+    - family: SourceSans3
+      fonts:
+        - asset: android/fonts/SourceSans3.ttf
